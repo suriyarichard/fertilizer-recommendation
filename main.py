@@ -25,7 +25,7 @@ class Data(BaseModel):
 
 @app.get('/')
 def welcome():
-    return "Welcome All"
+    return "Sample hello call"
 
 @app.post('/predict')
 def predict(data1 : Data):
